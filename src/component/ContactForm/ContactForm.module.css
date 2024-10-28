@@ -1,0 +1,48 @@
+.btnSty {
+     margin-top: 20px;
+    display: flex; 
+    gap: 50px;
+  }
+   .container{
+   
+    max-width: 1080px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+   }
+   .content{
+   
+    width: 100%;
+   }
+   .image{
+   
+    width: 100%;
+   }
+   .formControl{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    position: relative;
+    margin-top: 20px;
+   }
+   .formControl input{
+    height: 40px;
+    padding: 0px 8px;
+   }
+   .formControl label{
+    position: absolute;
+    top: -12px;
+    left: 12px;
+    padding: 0px 8px;
+    background-color: white;
+
+   }
+
+   .content form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 20px;
+    max-width: 90%;
+    padding: 0 30px;
+   }
